@@ -1,14 +1,14 @@
 # core/matcher.py
 
 from typing import List, Dict
-
+from core.flow import FlowManager
 
 class MLTMatcher:
     """
     Responsible for matching ACKs with outstanding segments
     and generating MLT samples.
     """
-    def __init__(self, flow_manager, flow_filter=None):
+    def __init__(self, flow_manager:FlowManager, flow_filter=None):
         self.flow_manager = flow_manager
         self.flow_filter = flow_filter
     # --------------------------------------------------
