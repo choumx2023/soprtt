@@ -238,9 +238,16 @@ run_tcp_experiment() {
     # 启动 HTTP 服务器
     start_http_server
     
+    # 自动检测网卡名称
+    INTERFACE=$(ip route | grep default | awk '{print $5}')
+    if [ -z "$INTERFACE" ]; then
+        INTERFACE="eth0"
+    fi
+    
     # 开始抓包
     echo "开始抓包 (${DURATION} 秒)..."
-    python3 capture_traffic.py -i eth0 -t "$DURATION" -o "$OUTPUT_DIR/${output_name}"
+    echo "  使用网卡：$INTERFACE"
+    python3 capture_traffic.py -i "$INTERFACE" -t "$DURATION" -o "$OUTPUT_DIR/${output_name}"
     
     # 分析
     echo ""

@@ -24,29 +24,29 @@ def quick_validate(pcap_path: str, output_dir: str = "quick_validation"):
         output_dir: 输出目录
     """
     if not os.path.exists(pcap_path):
-        print(f"[ERROR] PCAP file not found: {pcap_path}")
+        print(f"[错误] 找不到 PCAP 文件：{pcap_path}")
         return
     
     print("=" * 70)
     print("跨层验证实验 - ACK 策略分析")
     print("=" * 70)
-    print(f"\n[*] Input PCAP: {pcap_path}")
-    print(f"[*] Output directory: {output_dir}\n")
+    print(f"\n[*] 输入 PCAP: {pcap_path}")
+    print(f"[*] 输出目录：{output_dir}\n")
     
     # 使用 engine 处理 PCAP
     engine = MLTEngine()
     
-    print("[*] Processing PCAP file...")
+    print("[*] 正在处理 PCAP 文件...")
     result = engine.run(pcap_path, output_dir=output_dir)
     
-    print(f"\n[*] Total packets processed: {result['packet_count']}")
-    print(f"[*] MLT samples collected: {result['filtered_total_samples']}")
+    print(f"\n[*] 处理数据包总数：{result['packet_count']}")
+    print(f"[*] 收集 MLT 样本数：{result['filtered_total_samples']}")
     
     # 创建 ACK 分析器
     analyzer = ACKStrategyAnalyzer(engine.collector.samples)
     
     # 生成分析报告
-    print("\n[*] Analyzing ACK strategies...")
+    print("\n[*] 分析 ACK 策略中...")
     report = analyzer.generate_report()
     
     # 保存报告
@@ -54,7 +54,7 @@ def quick_validate(pcap_path: str, output_dir: str = "quick_validation"):
     with open(report_path, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=4, ensure_ascii=False)
     
-    print(f"[*] Report saved to: {report_path}")
+    print(f"[*] 报告已保存至：{report_path}")
     
     # 绘制对比图
     plot_path = os.path.join(output_dir, "ack_strategy_comparison.png")
@@ -114,16 +114,16 @@ def main():
     import argparse
     
     parser = argparse.ArgumentParser(
-        description="Quick validation tool for ACK strategy analysis"
+        description="ACK 策略分析快速验证工具"
     )
     parser.add_argument(
         "pcap_file",
-        help="Path to PCAP file"
+        help="PCAP 文件路径"
     )
     parser.add_argument(
         "-o", "--output",
         default="quick_validation",
-        help="Output directory (default: quick_validation)"
+        help="输出目录 (默认：quick_validation)"
     )
     
     args = parser.parse_args()
