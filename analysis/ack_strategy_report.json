@@ -1,0 +1,99 @@
+{
+    "summary": {
+        "total_samples": 379,
+        "classified_counts": {
+            "syn_ack": 19,
+            "b2b": 67,
+            "data_immediate": 33,
+            "data_delayed": 260
+        }
+    },
+    "delayed_ack_impact": {
+        "baseline_mlt": 0.072256,
+        "baseline_source": "86 syn/b2b samples",
+        "categories": {
+            "syn_ack": {
+                "count": 19,
+                "avg_deviation_ms": 153.88,
+                "std_deviation_ms": 196.59,
+                "accuracy_within_20ms": 0.0,
+                "p50_deviation_ms": 127.75,
+                "p95_deviation_ms": 243.51
+            },
+            "b2b": {
+                "count": 67,
+                "avg_deviation_ms": 344.67,
+                "std_deviation_ms": 500.9,
+                "accuracy_within_20ms": 5.97,
+                "p50_deviation_ms": 128.12,
+                "p95_deviation_ms": 1497.86
+            },
+            "data_immediate": {
+                "count": 33,
+                "avg_deviation_ms": -59.54,
+                "std_deviation_ms": 15.77,
+                "accuracy_within_20ms": 0.0,
+                "p50_deviation_ms": -67.49,
+                "p95_deviation_ms": -33.91
+            },
+            "data_delayed": {
+                "count": 260,
+                "avg_deviation_ms": 187.1,
+                "std_deviation_ms": 246.34,
+                "accuracy_within_20ms": 4.62,
+                "p50_deviation_ms": 128.07,
+                "p95_deviation_ms": 328.86
+            }
+        }
+    },
+    "application_analysis": {
+        "ssh": {
+            "total_samples": 0,
+            "type_distribution": {},
+            "mlt_statistics": null
+        },
+        "www": {
+            "total_samples": 120,
+            "type_distribution": {
+                "syn_ack": 7,
+                "b2b": 19,
+                "data_immediate": 26,
+                "data_delayed": 68
+            },
+            "mlt_statistics": {
+                "count": 120,
+                "min": 0.000108,
+                "max": 1.781517,
+                "mean": 0.174808,
+                "median": 0.111439,
+                "p90": 0.308457,
+                "p95": 0.400427,
+                "p99": 1.387286,
+                "std": 0.254644
+            }
+        },
+        "other": {
+            "total_samples": 259,
+            "type_distribution": {
+                "syn_ack": 12,
+                "b2b": 48,
+                "data_immediate": 7,
+                "data_delayed": 192
+            },
+            "mlt_statistics": {
+                "count": 259,
+                "min": 0.000133,
+                "max": 2.459088,
+                "mean": 0.305425,
+                "median": 0.200488,
+                "p90": 0.400666,
+                "p95": 1.248345,
+                "p99": 1.801055,
+                "std": 0.32782
+            }
+        }
+    },
+    "recommendations": [
+        "Delayed ACK samples show low accuracy (< 50%). Consider filtering them out for precise measurements."
+    ]
+}

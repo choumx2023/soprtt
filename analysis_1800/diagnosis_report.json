@@ -1,0 +1,889 @@
+{
+    "total_mlt_samples": 11533,
+    "loss_ratio": 0.0,
+    "health_score": 40,
+    "window_size_seconds": 1.0,
+    "mlt_anomaly_analysis": {
+        "baseline": 6.2e-05,
+        "absolute_threshold": 0.15,
+        "spike_windows": [
+            {
+                "window": 1772359292,
+                "time": "2026-03-01 18:01:32",
+                "mlt": 0.401358,
+                "increase": 0.401296,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359293,
+                "time": "2026-03-01 18:01:33",
+                "mlt": 0.400161,
+                "increase": 0.400099,
+                "type": "syn"
+            },
+            {
+                "window": 1772359295,
+                "time": "2026-03-01 18:01:35",
+                "mlt": 0.401347,
+                "increase": 0.401285,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359296,
+                "time": "2026-03-01 18:01:36",
+                "mlt": 0.401924,
+                "increase": 0.401862,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359297,
+                "time": "2026-03-01 18:01:37",
+                "mlt": 0.401567,
+                "increase": 0.401505,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359298,
+                "time": "2026-03-01 18:01:38",
+                "mlt": 0.400995,
+                "increase": 0.400933,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359299,
+                "time": "2026-03-01 18:01:39",
+                "mlt": 0.400915,
+                "increase": 0.400853,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359300,
+                "time": "2026-03-01 18:01:40",
+                "mlt": 0.401843,
+                "increase": 0.401781,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359301,
+                "time": "2026-03-01 18:01:41",
+                "mlt": 0.401591,
+                "increase": 0.401529,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359302,
+                "time": "2026-03-01 18:01:42",
+                "mlt": 0.40133,
+                "increase": 0.401268,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359303,
+                "time": "2026-03-01 18:01:43",
+                "mlt": 0.401461,
+                "increase": 0.401399,
+                "type": "syn"
+            },
+            {
+                "window": 1772359304,
+                "time": "2026-03-01 18:01:44",
+                "mlt": 0.400439,
+                "increase": 0.400377,
+                "type": "syn"
+            },
+            {
+                "window": 1772359305,
+                "time": "2026-03-01 18:01:45",
+                "mlt": 0.401643,
+                "increase": 0.401581,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359306,
+                "time": "2026-03-01 18:01:46",
+                "mlt": 0.401948,
+                "increase": 0.401886,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359307,
+                "time": "2026-03-01 18:01:47",
+                "mlt": 0.401288,
+                "increase": 0.401226,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359308,
+                "time": "2026-03-01 18:01:48",
+                "mlt": 0.400961,
+                "increase": 0.400899,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359309,
+                "time": "2026-03-01 18:01:49",
+                "mlt": 0.400382,
+                "increase": 0.40032,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359310,
+                "time": "2026-03-01 18:01:50",
+                "mlt": 0.40176,
+                "increase": 0.401698,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359311,
+                "time": "2026-03-01 18:01:51",
+                "mlt": 0.401595,
+                "increase": 0.401533,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359312,
+                "time": "2026-03-01 18:01:52",
+                "mlt": 0.401673,
+                "increase": 0.401611,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359315,
+                "time": "2026-03-01 18:01:55",
+                "mlt": 0.401986,
+                "increase": 0.401924,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359316,
+                "time": "2026-03-01 18:01:56",
+                "mlt": 0.401956,
+                "increase": 0.401894,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359317,
+                "time": "2026-03-01 18:01:57",
+                "mlt": 0.400606,
+                "increase": 0.400544,
+                "type": "syn"
+            },
+            {
+                "window": 1772359319,
+                "time": "2026-03-01 18:01:59",
+                "mlt": 0.400878,
+                "increase": 0.400816,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359320,
+                "time": "2026-03-01 18:02:00",
+                "mlt": 0.401976,
+                "increase": 0.401914,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359321,
+                "time": "2026-03-01 18:02:01",
+                "mlt": 0.402187,
+                "increase": 0.402125,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359322,
+                "time": "2026-03-01 18:02:02",
+                "mlt": 0.400048,
+                "increase": 0.399986,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359323,
+                "time": "2026-03-01 18:02:03",
+                "mlt": 0.401987,
+                "increase": 0.401925,
+                "type": "syn"
+            },
+            {
+                "window": 1772359324,
+                "time": "2026-03-01 18:02:04",
+                "mlt": 0.401531,
+                "increase": 0.401469,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359325,
+                "time": "2026-03-01 18:02:05",
+                "mlt": 0.401995,
+                "increase": 0.401933,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359326,
+                "time": "2026-03-01 18:02:06",
+                "mlt": 0.402063,
+                "increase": 0.402001,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359327,
+                "time": "2026-03-01 18:02:07",
+                "mlt": 0.400317,
+                "increase": 0.400255,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359329,
+                "time": "2026-03-01 18:02:09",
+                "mlt": 0.400264,
+                "increase": 0.400202,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359330,
+                "time": "2026-03-01 18:02:10",
+                "mlt": 0.402199,
+                "increase": 0.402137,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359331,
+                "time": "2026-03-01 18:02:11",
+                "mlt": 0.401799,
+                "increase": 0.401737,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359335,
+                "time": "2026-03-01 18:02:15",
+                "mlt": 0.401832,
+                "increase": 0.40177,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359336,
+                "time": "2026-03-01 18:02:16",
+                "mlt": 0.401781,
+                "increase": 0.401719,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359337,
+                "time": "2026-03-01 18:02:17",
+                "mlt": 0.40096,
+                "increase": 0.400898,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359340,
+                "time": "2026-03-01 18:02:20",
+                "mlt": 0.402774,
+                "increase": 0.402712,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359341,
+                "time": "2026-03-01 18:02:21",
+                "mlt": 0.402558,
+                "increase": 0.402496,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359342,
+                "time": "2026-03-01 18:02:22",
+                "mlt": 0.401132,
+                "increase": 0.40107,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359345,
+                "time": "2026-03-01 18:02:25",
+                "mlt": 0.403587,
+                "increase": 0.403525,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359346,
+                "time": "2026-03-01 18:02:26",
+                "mlt": 0.401732,
+                "increase": 0.40167,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359347,
+                "time": "2026-03-01 18:02:27",
+                "mlt": 0.401299,
+                "increase": 0.401237,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359348,
+                "time": "2026-03-01 18:02:28",
+                "mlt": 0.400595,
+                "increase": 0.400533,
+                "type": "syn"
+            },
+            {
+                "window": 1772359349,
+                "time": "2026-03-01 18:02:29",
+                "mlt": 0.401131,
+                "increase": 0.401069,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359350,
+                "time": "2026-03-01 18:02:30",
+                "mlt": 0.401942,
+                "increase": 0.40188,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359351,
+                "time": "2026-03-01 18:02:31",
+                "mlt": 0.401337,
+                "increase": 0.401275,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359622,
+                "time": "2026-03-01 18:07:02",
+                "mlt": 0.399567,
+                "increase": 0.399505,
+                "type": "syn"
+            },
+            {
+                "window": 1772359623,
+                "time": "2026-03-01 18:07:03",
+                "mlt": 0.401461,
+                "increase": 0.401399,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359624,
+                "time": "2026-03-01 18:07:04",
+                "mlt": 0.401721,
+                "increase": 0.401659,
+                "type": "syn"
+            },
+            {
+                "window": 1772359625,
+                "time": "2026-03-01 18:07:05",
+                "mlt": 0.401398,
+                "increase": 0.401336,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359626,
+                "time": "2026-03-01 18:07:06",
+                "mlt": 0.401302,
+                "increase": 0.40124,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359627,
+                "time": "2026-03-01 18:07:07",
+                "mlt": 0.401148,
+                "increase": 0.401086,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359628,
+                "time": "2026-03-01 18:07:08",
+                "mlt": 0.40169,
+                "increase": 0.401628,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359629,
+                "time": "2026-03-01 18:07:09",
+                "mlt": 0.402221,
+                "increase": 0.402159,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359630,
+                "time": "2026-03-01 18:07:10",
+                "mlt": 0.401899,
+                "increase": 0.401837,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359631,
+                "time": "2026-03-01 18:07:11",
+                "mlt": 0.401659,
+                "increase": 0.401597,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359632,
+                "time": "2026-03-01 18:07:12",
+                "mlt": 0.40268,
+                "increase": 0.402618,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359633,
+                "time": "2026-03-01 18:07:13",
+                "mlt": 0.40178,
+                "increase": 0.401718,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359635,
+                "time": "2026-03-01 18:07:15",
+                "mlt": 0.400828,
+                "increase": 0.400766,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359636,
+                "time": "2026-03-01 18:07:16",
+                "mlt": 0.4009,
+                "increase": 0.400838,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359637,
+                "time": "2026-03-01 18:07:17",
+                "mlt": 0.400702,
+                "increase": 0.40064,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359638,
+                "time": "2026-03-01 18:07:18",
+                "mlt": 0.400936,
+                "increase": 0.400874,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359639,
+                "time": "2026-03-01 18:07:19",
+                "mlt": 0.401029,
+                "increase": 0.400967,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359641,
+                "time": "2026-03-01 18:07:21",
+                "mlt": 0.401637,
+                "increase": 0.401575,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359642,
+                "time": "2026-03-01 18:07:22",
+                "mlt": 0.401701,
+                "increase": 0.401639,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359643,
+                "time": "2026-03-01 18:07:23",
+                "mlt": 0.401322,
+                "increase": 0.40126,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359644,
+                "time": "2026-03-01 18:07:24",
+                "mlt": 0.400012,
+                "increase": 0.39995,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359645,
+                "time": "2026-03-01 18:07:25",
+                "mlt": 0.40034,
+                "increase": 0.400278,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359646,
+                "time": "2026-03-01 18:07:26",
+                "mlt": 0.401092,
+                "increase": 0.40103,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359648,
+                "time": "2026-03-01 18:07:28",
+                "mlt": 0.400903,
+                "increase": 0.400841,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359651,
+                "time": "2026-03-01 18:07:31",
+                "mlt": 0.402299,
+                "increase": 0.402237,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359652,
+                "time": "2026-03-01 18:07:32",
+                "mlt": 0.400605,
+                "increase": 0.400543,
+                "type": "syn"
+            },
+            {
+                "window": 1772359653,
+                "time": "2026-03-01 18:07:33",
+                "mlt": 0.401851,
+                "increase": 0.401789,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359654,
+                "time": "2026-03-01 18:07:34",
+                "mlt": 0.401073,
+                "increase": 0.401011,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359657,
+                "time": "2026-03-01 18:07:37",
+                "mlt": 0.401965,
+                "increase": 0.401903,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359658,
+                "time": "2026-03-01 18:07:38",
+                "mlt": 0.401056,
+                "increase": 0.400994,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359659,
+                "time": "2026-03-01 18:07:39",
+                "mlt": 0.400863,
+                "increase": 0.400801,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359661,
+                "time": "2026-03-01 18:07:41",
+                "mlt": 0.401439,
+                "increase": 0.401377,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359663,
+                "time": "2026-03-01 18:07:43",
+                "mlt": 0.401229,
+                "increase": 0.401167,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359666,
+                "time": "2026-03-01 18:07:46",
+                "mlt": 0.401228,
+                "increase": 0.401166,
+                "type": "syn"
+            },
+            {
+                "window": 1772359667,
+                "time": "2026-03-01 18:07:47",
+                "mlt": 0.400925,
+                "increase": 0.400863,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359668,
+                "time": "2026-03-01 18:07:48",
+                "mlt": 0.40155,
+                "increase": 0.401488,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359669,
+                "time": "2026-03-01 18:07:49",
+                "mlt": 0.40087,
+                "increase": 0.400808,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359671,
+                "time": "2026-03-01 18:07:51",
+                "mlt": 0.401155,
+                "increase": 0.401093,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359672,
+                "time": "2026-03-01 18:07:52",
+                "mlt": 0.40009,
+                "increase": 0.400028,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359673,
+                "time": "2026-03-01 18:07:53",
+                "mlt": 0.401825,
+                "increase": 0.401763,
+                "type": "b2b"
+            },
+            {
+                "window": 1772359678,
+                "time": "2026-03-01 18:07:58",
+                "mlt": 0.400085,
+                "increase": 0.400023,
+                "type": "syn"
+            },
+            {
+                "window": 1772359681,
+                "time": "2026-03-01 18:08:01",
+                "mlt": 0.402095,
+                "increase": 0.402033,
+                "type": "b2b"
+            }
+        ],
+        "merged_spike_periods": [
+            {
+                "start_window": 1772359292,
+                "end_window": 1772359351,
+                "start_time": "2026-03-01 18:01:32",
+                "end_time": "2026-03-01 18:02:32",
+                "duration_windows": 60,
+                "duration_seconds": 60.0,
+                "max_mlt": 0.403587,
+                "max_increase": 0.403525,
+                "types": [
+                    "b2b",
+                    "syn"
+                ]
+            },
+            {
+                "start_window": 1772359622,
+                "end_window": 1772359659,
+                "start_time": "2026-03-01 18:07:02",
+                "end_time": "2026-03-01 18:07:40",
+                "duration_windows": 38,
+                "duration_seconds": 38.0,
+                "max_mlt": 0.40268,
+                "max_increase": 0.402618,
+                "types": [
+                    "b2b",
+                    "syn"
+                ]
+            },
+            {
+                "start_window": 1772359661,
+                "end_window": 1772359673,
+                "start_time": "2026-03-01 18:07:41",
+                "end_time": "2026-03-01 18:07:54",
+                "duration_windows": 13,
+                "duration_seconds": 13.0,
+                "max_mlt": 0.401825,
+                "max_increase": 0.401763,
+                "types": [
+                    "b2b",
+                    "syn"
+                ]
+            },
+            {
+                "start_window": 1772359678,
+                "end_window": 1772359678,
+                "start_time": "2026-03-01 18:07:58",
+                "end_time": "2026-03-01 18:07:59",
+                "duration_windows": 1,
+                "duration_seconds": 1.0,
+                "max_mlt": 0.400085,
+                "max_increase": 0.400023,
+                "types": [
+                    "syn"
+                ]
+            },
+            {
+                "start_window": 1772359681,
+                "end_window": 1772359681,
+                "start_time": "2026-03-01 18:08:01",
+                "end_time": "2026-03-01 18:08:02",
+                "duration_windows": 1,
+                "duration_seconds": 1.0,
+                "max_mlt": 0.402095,
+                "max_increase": 0.402033,
+                "types": [
+                    "b2b"
+                ]
+            }
+        ]
+    },
+    "sample_gap_analysis": [
+        {
+            "start_window": 1772359436,
+            "end_window": 1772359438,
+            "start_time": "2026-03-01 18:03:56",
+            "end_time": "2026-03-01 18:03:59",
+            "duration_windows": 3,
+            "duration_seconds": 3.0
+        },
+        {
+            "start_window": 1772359472,
+            "end_window": 1772359503,
+            "start_time": "2026-03-01 18:04:32",
+            "end_time": "2026-03-01 18:05:04",
+            "duration_windows": 32,
+            "duration_seconds": 32.0
+        },
+        {
+            "start_window": 1772359706,
+            "end_window": 1772359708,
+            "start_time": "2026-03-01 18:08:26",
+            "end_time": "2026-03-01 18:08:29",
+            "duration_windows": 3,
+            "duration_seconds": 3.0
+        }
+    ],
+    "diagnosis": {
+        "network_status": "CRITICAL",
+        "issues": [
+            "No mlt samples from 2026-03-01 18:03:56 to 2026-03-01 18:03:59 (3.0s, 3 windows)",
+            "No mlt samples from 2026-03-01 18:04:32 to 2026-03-01 18:05:04 (32.0s, 32 windows)",
+            "No mlt samples from 2026-03-01 18:08:26 to 2026-03-01 18:08:29 (3.0s, 3 windows)",
+            "mlt elevated from 2026-03-01 18:01:32 to 2026-03-01 18:02:32 (60.0s, 60 windows, max_mlt=0.403587s, max_increase=+0.403525s, types=['b2b', 'syn'])",
+            "mlt elevated from 2026-03-01 18:07:02 to 2026-03-01 18:07:40 (38.0s, 38 windows, max_mlt=0.40268s, max_increase=+0.402618s, types=['b2b', 'syn'])",
+            "mlt elevated from 2026-03-01 18:07:41 to 2026-03-01 18:07:54 (13.0s, 13 windows, max_mlt=0.401825s, max_increase=+0.401763s, types=['b2b', 'syn'])",
+            "mlt elevated from 2026-03-01 18:07:58 to 2026-03-01 18:07:59 (1.0s, 1 windows, max_mlt=0.400085s, max_increase=+0.400023s, types=['syn'])",
+            "mlt elevated from 2026-03-01 18:08:01 to 2026-03-01 18:08:02 (1.0s, 1 windows, max_mlt=0.402095s, max_increase=+0.402033s, types=['b2b'])"
+        ],
+        "gap_issues": [
+            {
+                "start_time": "2026-03-01 18:03:56",
+                "end_time": "2026-03-01 18:03:59",
+                "duration_seconds": 3.0,
+                "duration_windows": 3
+            },
+            {
+                "start_time": "2026-03-01 18:04:32",
+                "end_time": "2026-03-01 18:05:04",
+                "duration_seconds": 32.0,
+                "duration_windows": 32
+            },
+            {
+                "start_time": "2026-03-01 18:08:26",
+                "end_time": "2026-03-01 18:08:29",
+                "duration_seconds": 3.0,
+                "duration_windows": 3
+            }
+        ],
+        "elevated_issues": [
+            {
+                "start_time": "2026-03-01 18:01:32",
+                "end_time": "2026-03-01 18:02:32",
+                "duration_seconds": 60.0,
+                "duration_windows": 60,
+                "max_mlt": 0.403587,
+                "max_increase": 0.403525,
+                "types": [
+                    "b2b",
+                    "syn"
+                ]
+            },
+            {
+                "start_time": "2026-03-01 18:07:02",
+                "end_time": "2026-03-01 18:07:40",
+                "duration_seconds": 38.0,
+                "duration_windows": 38,
+                "max_mlt": 0.40268,
+                "max_increase": 0.402618,
+                "types": [
+                    "b2b",
+                    "syn"
+                ]
+            },
+            {
+                "start_time": "2026-03-01 18:07:41",
+                "end_time": "2026-03-01 18:07:54",
+                "duration_seconds": 13.0,
+                "duration_windows": 13,
+                "max_mlt": 0.401825,
+                "max_increase": 0.401763,
+                "types": [
+                    "b2b",
+                    "syn"
+                ]
+            },
+            {
+                "start_time": "2026-03-01 18:07:58",
+                "end_time": "2026-03-01 18:07:59",
+                "duration_seconds": 1.0,
+                "duration_windows": 1,
+                "max_mlt": 0.400085,
+                "max_increase": 0.400023,
+                "types": [
+                    "syn"
+                ]
+            },
+            {
+                "start_time": "2026-03-01 18:08:01",
+                "end_time": "2026-03-01 18:08:02",
+                "duration_seconds": 1.0,
+                "duration_windows": 1,
+                "max_mlt": 0.402095,
+                "max_increase": 0.402033,
+                "types": [
+                    "b2b"
+                ]
+            }
+        ],
+        "loss_issues": [],
+        "anomaly_periods": [
+            {
+                "start_window": 1772359292,
+                "end_window": 1772359351,
+                "start_time": "2026-03-01 18:01:32",
+                "end_time": "2026-03-01 18:02:32",
+                "duration_windows": 60,
+                "duration_seconds": 60.0,
+                "sources": [
+                    "elevated"
+                ]
+            },
+            {
+                "start_window": 1772359436,
+                "end_window": 1772359438,
+                "start_time": "2026-03-01 18:03:56",
+                "end_time": "2026-03-01 18:03:59",
+                "duration_windows": 3,
+                "duration_seconds": 3.0,
+                "sources": [
+                    "gap"
+                ]
+            },
+            {
+                "start_window": 1772359472,
+                "end_window": 1772359503,
+                "start_time": "2026-03-01 18:04:32",
+                "end_time": "2026-03-01 18:05:04",
+                "duration_windows": 32,
+                "duration_seconds": 32.0,
+                "sources": [
+                    "gap"
+                ]
+            },
+            {
+                "start_window": 1772359622,
+                "end_window": 1772359681,
+                "start_time": "2026-03-01 18:07:02",
+                "end_time": "2026-03-01 18:08:02",
+                "duration_windows": 60,
+                "duration_seconds": 60.0,
+                "sources": [
+                    "elevated"
+                ]
+            },
+            {
+                "start_window": 1772359706,
+                "end_window": 1772359708,
+                "start_time": "2026-03-01 18:08:26",
+                "end_time": "2026-03-01 18:08:29",
+                "duration_windows": 3,
+                "duration_seconds": 3.0,
+                "sources": [
+                    "gap"
+                ]
+            }
+        ]
+    }
+}

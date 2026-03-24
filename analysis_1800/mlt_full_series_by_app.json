@@ -1,0 +1,46 @@
+{
+    "source_file": "analysis_1800/mlt_full_series.json",
+    "total_samples": 11533,
+    "application_breakdown": {
+        "SSH": {
+            "count": 0,
+            "percentage": 0.0,
+            "type_distribution": {},
+            "mlt_statistics": null
+        },
+        "WWW": {
+            "count": 9422,
+            "percentage": 81.69600277464667,
+            "type_distribution": {
+                "data": 751,
+                "b2b": 8571,
+                "syn": 100
+            },
+            "mlt_statistics": {
+                "min": 0.0019073486328125,
+                "max": 25467.94319152832,
+                "mean": 99.4712943561111,
+                "median": 0.26798248291015625,
+                "p95": 400.9358882904053,
+                "p99": 401.7801284790039
+            }
+        },
+        "OTHER": {
+            "count": 2111,
+            "percentage": 18.30399722535333,
+            "type_distribution": {
+                "syn": 174,
+                "b2b": 522,
+                "data": 1415
+            },
+            "mlt_statistics": {
+                "min": 0.030040740966796875,
+                "max": 1354.7959327697754,
+                "mean": 72.91316105143711,
+                "median": 0.18787384033203125,
+                "p95": 400.85411071777344,
+                "p99": 401.7210006713867
+            }
+        }
+    }
+}

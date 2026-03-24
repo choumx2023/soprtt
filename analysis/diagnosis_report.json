@@ -1,0 +1,23 @@
+{
+    "total_mlt_samples": 0,
+    "loss_ratio": 0,
+    "health_score": 0,
+    "window_size_seconds": 1.0,
+    "mlt_anomaly_analysis": {
+        "baseline": null,
+        "absolute_threshold": 0.15,
+        "spike_windows": [],
+        "merged_spike_periods": []
+    },
+    "sample_gap_analysis": [],
+    "diagnosis": {
+        "network_status": "CRITICAL",
+        "issues": [
+            "No mlt samples (possible disconnect)"
+        ],
+        "gap_issues": [],
+        "elevated_issues": [],
+        "loss_issues": [],
+        "anomaly_periods": []
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "source_file": "analysis/mlt_full_series.json",
+    "total_samples": 0,
+    "application_breakdown": {
+        "SSH": {
+            "count": 0,
+            "percentage": 0,
+            "type_distribution": {},
+            "mlt_statistics": null
+        },
+        "WWW": {
+            "count": 0,
+            "percentage": 0,
+            "type_distribution": {},
+            "mlt_statistics": null
+        },
+        "OTHER": {
+            "count": 0,
+            "percentage": 0,
+            "type_distribution": {},
+            "mlt_statistics": null
+        }
+    }
+}
